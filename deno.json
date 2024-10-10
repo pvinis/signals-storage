@@ -1,0 +1,8 @@
+{
+	"name": "@pvinis/signals-storage",
+	"version": "0.1.0",
+	"exports": "./signalWithStorage.ts",
+	"imports": {
+		"@preact/signals-react": "npm:@preact/signals-react@^2"
+	}
+}
