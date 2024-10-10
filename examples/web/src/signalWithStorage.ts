@@ -1,4 +1,4 @@
-import { signalWithStorageCustom } from "@pvinis/signals-storage";
+import { signalWithStorageCustom, Storage } from "@pvinis/signals-storage";
 
 const storage: Storage = window.localStorage;
 

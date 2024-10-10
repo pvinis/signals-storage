@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@preact/signals-react": "^2.2.0",
-    "@pvinis/signals-storage": "npm:@jsr/pvinis__signals-storage@^0.1.2",
+    "@pvinis/signals-storage": "npm:@jsr/pvinis__signals-storage@^0.1.9",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
