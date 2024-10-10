@@ -3,7 +3,7 @@ import { signalWithStorageCustom } from "../src/signalWithStorage.ts";
 import { jsObjectStorage } from "../src/premadeStorages.ts";
 
 const signalWithStorage = <T>(key: string, initialValue: T) =>
-	signalWithStorageCustom(key, initialValue, jsObjectStorage);
+  signalWithStorageCustom(key, initialValue, jsObjectStorage);
 
 const tempCount = signal(0);
 console.log(tempCount.value);
