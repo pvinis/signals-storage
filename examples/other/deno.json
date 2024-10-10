@@ -1,0 +1,8 @@
+{
+  "name": "@example/other",
+  "version": "0.1.0",
+  "exports": "./cool-project.ts",
+  "imports": {
+    "@std/fs": "jsr:@std/fs@^1.0.4"
+  }
+}

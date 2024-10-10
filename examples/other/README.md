@@ -1,14 +1,4 @@
-# Signals with Storage (web example)
-
-## Installation
-
-```sh
-npm jsr add @pvinis/signals-storage
-
-or
-
-deno add @pvinis/signals-storage
-```
+# Signals with Storage (desktop/server/deno/node example)
 
 ## Usage
 
@@ -35,11 +25,12 @@ export const persistedCount = signalWithStorage("persistedCount", 0);
 You can run this example locally by cloning this repo and running:
 
 ```sh
-npm install
-npm run dev
+deno run -EW cool-project.ts
 ```
 
-or you can look how to use `signalWithStorage` in the the following files:
-- Regular signal usage: [src/App.tsx](./src/App.tsx) 
-- Signal creation: [src/signals.ts](./src/signals.ts)
-- Simple wrapper: [src/signalWithStorage.ts](./src/signalWithStorage.ts)
+That should output the initial values. Running the above command again should output the incremented values. You can also look at the `store` folder to see the persisted values.
+
+You can look how to use `signalWithStorage` in the the following files:
+- Regular signal usage: [cool-project.ts](./cool-project.ts)
+- Signal creation: [signals.ts](./signals.ts)
+- Simple wrapper: [signalWithStorage.ts](./signalWithStorage.ts)
