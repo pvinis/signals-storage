@@ -2,22 +2,22 @@
 
 ## Usage
 
-The suggested way to use this library is to create a simple wrapper around the signalWithStorageCustom function.
+The suggested way to use this library is to create a simple wrapper around the `signalWithStorageCustom` function.
 
 ```ts
-import { signalWithStorageCustom } from "@pvinis/signals-storage";
+import { signalWithStorageCustom } from "@pvinis/signals-storage"
 
-const storage: Storage = window.localStorage;
+const storage: Storage = window.localStorage
 
 export const signalWithStorage = <T>(key: string, initialValue: T) =>
-  signalWithStorageCustom(key, initialValue, storage);
+  signalWithStorageCustom(key, initialValue, storage)
 ```
 
 Then you can use the signalWithStorage function to create your signals.
 
 ```ts
-export const tempCount = signalWithStorage("tempCount", 0);
-export const persistedCount = signalWithStorage("persistedCount", 0);
+export const tempCount = signalWithStorage("tempCount", 0)
+export const persistedCount = signalWithStorage("persistedCount", 0)
 ```
 
 ## Example
