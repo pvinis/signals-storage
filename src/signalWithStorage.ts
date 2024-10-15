@@ -1,4 +1,4 @@
-import { signal, effect, type Signal } from "npm:@preact/signals-react@2";
+import { signal, effect, type Signal } from "@preact/signals-react";
 import type { Storage } from "./types.ts";
 
 /**

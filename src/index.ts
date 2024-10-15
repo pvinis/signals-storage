@@ -1,2 +1,2 @@
-export * from "./signalWithStorage.ts";
-export * from "./types.ts";
+export * from "./signalWithStorage";
+export * from "./types";
