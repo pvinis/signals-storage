@@ -57,7 +57,7 @@ const mmkvStorage: Storage = {
   },
   setItem: (key, value) => (mmkvStore.set(key, JSON.stringify(value))),
   removeItem: (key) => (mmkvStore.delete(key)),
-  clearAll: () => (mmkvStore.clearAll()),
+  clear: () => (mmkvStore.clearAll()),
 }
 
 export const signalWithStorage = <T>(key: string, initialValue: T) =>
